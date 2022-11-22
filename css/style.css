@@ -213,6 +213,9 @@ table td {
 table tr:last-child td{
 	border-bottom:0;
 }
+.tp-leftarrow,.tp-rightarrow{
+    display: none !important;
+}
 p,
 address,
 pre,
@@ -11207,7 +11210,7 @@ footer p a {
 footer a:active,
 footer a:focus,
 footer a:hover {
-    color: var(--color-primary);
+    color: var(--color-primary) !important;
 }
 /* widget color */
 footer .widget_categories ul li a,
