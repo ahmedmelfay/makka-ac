@@ -11212,6 +11212,10 @@ footer a:focus,
 footer a:hover {
     color: var(--color-primary) !important;
 }
+.service-box .icon-bx-wraper{
+    overflow-y: auto;
+    height: 438px;
+}
 /* widget color */
 footer .widget_categories ul li a,
 footer .widget_archive ul li a,
