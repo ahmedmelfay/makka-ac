@@ -1,437 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="Makka-AC" />
-    <meta property="og:title" content="Makka-AC" />
-    <meta property="og:description" content="Makka-AC" />
-    <meta property="og:image" content="https://industry.dexignzone.com/xhtml/social-image.png" />
-    <meta name="format-detection" content="telephone=no" />
 
-    <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/logoM.jpeg" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/logoM.jpeg" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta name="robots" content="" />
+  <meta name="description" content="Makka-AC" />
+  <meta property="og:title" content="Makka-AC" />
+  <meta property="og:description" content="Makka-AC" />
+  <meta property="og:image" content="https://industry.dexignzone.com/xhtml/social-image.png" />
+  <meta name="format-detection" content="telephone=no" />
 
-    <!-- PAGE TITLE HERE -->
-    <title>Makka-AC</title>
+  <!-- FAVICONS ICON -->
+  <link rel="icon" href="images/logoM.jpeg" type="image/x-icon" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/logoM.jpeg" />
 
-    <!-- MOBILE SPECIFIC -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- PAGE TITLE HERE -->
+  <title>Makka-AC</title>
 
-    <!--[if lt IE 9]>
+  <!-- MOBILE SPECIFIC -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-2.css" />
-    <link rel="stylesheet" type="text/css" href="css/templete.css" />
-    <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-2.css" />
+  <link rel="stylesheet" type="text/css" href="css/templete.css" />
+  <link rel="stylesheet" type="text/css" href="css/rtl.css" />
 
-    <!-- Google Font -->
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
-    </style>
-  </head>
-  <body id="bg">
-    <div class="page-wraper">
-      <div id="loading-area"></div>
-      <!-- header -->
-      <header class="site-header mo-left header">
-        <!-- main header -->
-        <div class="sticky-header main-bar-wraper navbar-expand-lg">
-          <div class="main-bar clearfix">
-            <div class="container clearfix">
-              <!-- website logo -->
-              <div class="logo-header mostion logo-dark">
-                <a href="index.html"><img src="images/logoM.jpeg" style="width: 70px" src="images/logoM.jpeg" class="rounded-pill" alt="" /></a>
-              </div>
-              <!-- nav toggle button -->
-              <button
-                class="navbar-toggler collapsed navicon justify-content-end"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-              </button>
-              <!-- extra nav -->
+  <!-- Google Font -->
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+  </style>
+</head>
 
-              <!-- Quik search -->
-
-              <!-- main nav -->
-              <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
-                <div class="logo-header d-md-block d-lg-none">
-                  <a href="index.html"><img src="images/logoM.jpeg" alt="" /></a>
-                </div>
-                <ul class="nav navbar-nav">
-                  <li>
-                    <a href="index.html">الصفحة الرئيسية</a>
-                  </li>
-                  <li class="active">
-                    <a href="services-1.html">منتجاتنا<i class="fas fa-chevron-down"></i></a>
-                    <ul class="sub-menu">
-                      <li><a href="services-1.html#agfb"> شفرات مثبتة للشواية الهوائية </a></li>
-                      <li><a href="services-1.html#bdd">مخمدات المسودة الخلفية </a></li>
-                      <li><a href="services-1.html#bjd"> موزع نفاث الكرة </a></li>
-                      <li><a href="services-1.html#dv">صمام القرص</a></li>
-                      <li><a href="services-1.html#dad">باب الوصول إلى القناة </a></li>
-                      <li><a href="services-1.html#fd">مخمدات الحريق</a></li>
-                      <li><a href="services-1.html#fal">فتحة تهوية جديدة </a></li>
-                      <li><a href="services-1.html#jd">النافث النفاث </a></li>
-                      <li><a href="services-1.html#lbg">شبك شبكي خطي </a></li>
-                      <li><a href="services-1.html#rcd">الناشر سقف مستدير </a></li>
-                      <li><a href="services-1.html#stl">مصيدة الرمال </a></li>
-                      <li><a href="services-1.html#lsd">الناشر ذو الفتحة الخطية </a></li>
-                      <li><a href="services-1.html#vcd">مخمد التحكم في مستوى الصوت </a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="about-2.html">عنا</a>
-                  </li>
-                  <li>
-                    <a href="contact-4.html">اتصل بنا</a>
-                  </li>
-                  <li>
-                    <a href="services-1-en.html">en</a>
-                  </li>
-                </ul>
-              </div>
+<body id="bg">
+  <div class="page-wraper">
+    <div id="loading-area"></div>
+    <!-- header -->
+    <header class="site-header mo-left header">
+      <!-- main header -->
+      <div class="sticky-header main-bar-wraper navbar-expand-lg">
+        <div class="main-bar clearfix">
+          <div class="container clearfix">
+            <!-- website logo -->
+            <div class="logo-header mostion logo-dark">
+              <a href="index.html"><img src="images/logoM.jpeg" style="width: 70px" src="images/logoM.jpeg"
+                  class="rounded-pill" alt="" /></a>
             </div>
-          </div>
-        </div>
-        <!-- main header END -->
-      </header>
-      <!-- header END -->
-      <!-- Content -->
-      <div class="page-content bg-white">
-        <!-- inner page banner -->
-        <div
-          class="dlab-bnr-inr overlay-black-middle bg-pt position-relative"
-          style="background-image: url(images/pexels-mike-van-schoonderwalt-5502720.jpg); background-size: cover; background-position: center center"
-        >
-          <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5)"></div>
-          <div class="container">
-            <div class="position-relative dlab-bnr-inr-entry">
-              <h1 class="text-white">منتجاتنا</h1>
-              <!-- Breadcrumb row -->
-              <div class="breadcrumb-row">
-                <ul class="list-inline">
-                  <li><a href="index.html">الصفحة الرئيسية</a></li>
-                  <li></li>
-                </ul>
-              </div>
-              <!-- Breadcrumb row END -->
-            </div>
-          </div>
-        </div>
-        <!-- inner page banner END -->
-        <!-- contact area -->
-        <div class="content-block">
-          <!-- About Us -->
-          <div class="section-full content-inner bg-gray">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 col-md-12">
-                  <div class="section-head text-black">
-                    <h4 class="text-gray-dark font-weight-300 m-b10">الخبرة</h4>
-                    <h2 class="title">تزيد خبرتنا عن 12 عاما في تصنيع جميع مخارج ومجاري الهواء والحريق والصرف الصحي</h2>
-                    <p>
-                      وقد نفذنا العديد من المشروعات مثل (القاعة المغطاة في السادس من أكتوبر - مجمع مولات غرب الشروق - مجمع التمثيل الإداري في السادس
-                      من أكتوبر - بنك CIB ، ميريلاند - بنك QNB، لعبة الدوال العربية - كارفور ميراج مول)
-                    </p>
-                  </div>
-                  <div class="section-content row">
-                    <div id="agfb" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="01">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-robot-arm"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">شفرات مثبتة للشواية الهوائية</h2>
-                          <p>
-                            شواية من مجموعة واحدة من الشفرات الأفقية أو الرأسية الثابتة على شكل 45 درجة ، وشفرات الإطار عبارة عن سبائك الألومنيوم
-                            المبثوقة ومسحوق البوليستر المطلي ، يستخدم كشبكة رجوع جانبية للجدار.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="bdd" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="02">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-factory-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">مخمدات المسودة الخلفية (GSH و BDD و PRD)</h2>
-                          <p>
-                            مخمدات السحب الخلفي من مكة المكرمة عبارة عن مخمدات غير رجعية مصممة للعزل التلقائي لمقاطع الهواء الفردية نظام تكييف يسمح
-                            بتدفق الهواء في اتجاه واحد فقط.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="bjd" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="03">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-fuel-station"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">موزع نفاث الكرة</h2>
-                          <p>
-                            يوفر موزع الهواء النفاث KYODO مظهرًا ممتازًا مفضلًا من الناحية المعمارية للمناطق المفتوحة الكبيرة مثل قاعة الحفلات
-                            الموسيقية ، المطار والمسرح والمتحف وما إلى ذلك.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="dv" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="04">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-fuel-truck"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">صمام القرص (DV)</h2>
-                          <p>
-                            صمام قرصي مكة مصنع من الفولاذ عالي الجودة ومغطى بمسحوق البوليستر. تم تصنيع صمام القرص من فولاذ عالي الجودة ومغلف بمسحوق
-                            بوليستر. المركز الأساسي قابل للتعديل بواسطة المسمار والصمولة للتحكم في الهواء.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="dad" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="05">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-conveyor-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">باب الوصول إلى القناة (DAD)</h2>
-                          <p>
-                            أبواب الوصول المعزولة مصنوعة من ألواح الصلب المجلفن ومعبأة بالصوف المعدني من أجل عزل عالي ، مصممة لإثبات الوصول المريح
-                            والاقتصادي إلى مكونات مجاري الهواء ، وحشية النيوبرين بين الباب والإطار تأكد من إحكام الغلق دون إعاقة في مجرى الهواء. متوفر
-                            في نماذج مختلفة ، يمكن أيضًا تعديله على ملف أساس العميل.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="fd" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="06">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">مخمدات الحريق (FD)</h2>
-                          <p>
-                            تم اعتماد نموذج FDI للاستخدام في الجدران والأرضيات والفواصل ذات معدلات مقاومة الحريق لساعات أو أكثر. هذا النموذج يحمل ملصق
-                            مخمد حريق UL لمدة 3 ساعات .. يصنف UL 555 مخمدات الحريق ذات التصنيف الديناميكي للاستخدام في أنظمة HVAC التي تغلق تلقائيًا
-                            في حالة نشوب حريق.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="fal" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="07">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">فتحة تهوية جديدة (FAL)</h2>
-                          <p>
-                            تتكون كوة مكة للهواء النقي المستخدمة في العادم والهواء النقي من مجموعة من الشفرات الأفقية الثابتة والمائلة لأسفل 45 درجة
-                            ومتباعدة 13/8 (35 مم) لنوع الشفرة الصغيرة و 2 بوصة (50 مم) لنوع الشفرة الكبيرة ، مما يسمح للهواء بالمرور خلالها مع إبعاد
-                            العناصر غير المرغوب فيها مثل الماء والأوساخ وما إلى ذلك.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="jd" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="08">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">النافث النفاث (JD)</h2>
-                          <p>
-                            مكة جيت ناشر مصمم للمناطق التي تحتاج إلى رمي طويل. يمكن التحكم في الحلقات الداخلية أفقيًا واتجاهات عمودية. ناشر الهواء
-                            مصنوع من الألمنيوم والمطلي بمسحوق البوليستر. طائرة واحدة ، اثنتان ، ثلاث أو أربع طائرات يمكن تحديد عناصر الناشر لكل لوحة.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="lbg" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="09">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">شبك شبكي خطي (LBG)</h2>
-                          <p>
-                            تستخدم الشوايات ذات القضبان الخطية بسعة عالية بالإضافة إلى مظهرها الجمالي اللطيف بشكل شائع على طول جوانبها مساحات كبيرة
-                            نسبيًا مع مناطق خالية مزدوجة مثل القباب والردهات المفتوحة ومراكز التسوق والردهات ومداخل المباني ، حيث كل من الجماليات
-                            وأحجام الهواء عالية السعة مطلوبة. يمكن توفيرها في كل من الأشكال المستقيمة والمنحنية لتناسب الهندسة الداخلية للمساحة
-                            المخدومة.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="rcd" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="10">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">الناشر سقف مستدير (RCD)</h2>
-                          <p>
-                            يمكن استخدام ناشر السقف الدائري المصنوع من سبائك الألومنيوم كمصدر أو عادم في التبريد أو التدفئة أو التهوية التطبيق ، مع
-                            النوى القابلة للتعديل بالكامل لتوفير نمط هواء أفقي أو عمودي ، يسمح النواة الداخلية القابلة للإزالة بسهولة التثبيت والوصول
-                            إلى مجرى الهواء.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="stl" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="11">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">مصيدة الرمال (STL)</h2>
-                          <p>
-                            كوات مكة الرمال المصيدة فعالة للغاية في حبس الرمال بينما تتمتع بمظهر جذاب وجمالي يجتمع أكثر الاحتياجات المعمارية. يتم
-                            إنشاء كوات مصيدة الرمل من مجموعتين من القنوات C المقلوبة مثبتة رأسياً. ال يحتوي اللوفر على ثقوب ذاتية التفريغ في الجزء
-                            السفلي يتم من خلالها طرد الرمل المحاصر بسلاسة.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="lsd" class="col-lg-6 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper" data-name="12">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">الناشر ذو الفتحة الخطية (LSD)</h2>
-                          <p>
-                            تُستخدم صمامات الفتحة الخطية في المناطق المفتوحة الكبيرة حيث يلزم توفير المحيط أو الإرجاع ، ويمكن تحقيق ذلك عن طريق الهواء
-                            دوارات الانحراف المطلوبة ، يمكن تحقيق ذلك عن طريق دوارات انحراف الهواء التي تتطلب تحقيق تحكم دقيق للتحكم في تدفق الهواء
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="vcd" class="col-lg-6 justify-content-center d-flex w-100 col-md-6 service-box style3">
-                      <div class="icon-bx-wraper w-50" data-name="13">
-                        <div class="icon-lg">
-                          <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
-                        </div>
-                        <div class="icon-content">
-                          <h2 class="dlab-tilte">مخمد التحكم في مستوى الصوت (VCD)</h2>
-                          <p>
-                            مخمد التحكم في مستوى الصوت مصنوع من شفرات مفردة أو متعددة. يمكن تركيب مانع تسرب حافة الشفرات من أجل متطلبات التسرب
-                            المنخفض. كف يتم توفير رباعي القفل للتشغيل اليدوي. يتم توفير عمود ممتد وقاعدة محرك للتشغيل الميكانيكي. ال يتم تثبيت الشفرات
-                            على محمل من النايلون ويتم تشغيلها بواسطة رابط خارجي. معارضة عمل الشفرة عند الطلب.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- contact area END -->
-      </div>
-      <!-- Content END-->
-      <!-- Footer -->
-      <footer class="site-footer footer-gray-1">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row align-content-center">
-              <div class="col-lg-5 col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.6s">
-                <img src="images/logoM.jpeg" style="width: 50%; float: right" class="rounded-pill" alt="" />
-              </div>
+            <!-- nav toggle button -->
+            <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <!-- extra nav -->
 
-              <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.4s">
-                <div class="">
-                  <div class="widget widget_about">
-                    <h4 class="footer-title">عن مكه</h4>
-                    <h6>شركة متخصصة في تصنيع جميع مخارج ومجاري الهواء والحريق والصرف الصحي</h6>
-                    <a href="about-2.html" class="readmore">اقرأ أكثر</a>
-                  </div>
-                </div>
+            <!-- Quik search -->
+
+            <!-- main nav -->
+            <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+              <div class="logo-header d-md-block d-lg-none">
+                <a href="index.html"><img src="images/logoM.jpeg" alt="" /></a>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 wow fadeIn float-left" data-wow-delay="0.2s">
-                <div class="widget border-0 w-100">
-                  <h6 class="m-b20 text-white font-weight-300 text-uppercase">روابط سريعة</h6>
-                  <ul class="list-2">
-                    <li><a href="index.html"> الصفحه الرئيسيه</a></li>
-                    <li><a href="services-1.html">منتجاتنا</a></li>
-                    <li><a href="contact-4.html">معلومات عنا</a></li>
-                    <li><a href="about-2.html">اتصل بنا </a></li>
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="index.html">الصفحة الرئيسية</a>
+                </li>
+                <li class="active">
+                  <a href="services-1.html">منتجاتنا<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu">
+                    <li><a href="services-1.html#agfb"> شفرات مثبتة للشواية الهوائية </a></li>
+                    <li><a href="services-1.html#bdd">مخمدات المسودة الخلفية </a></li>
+                    <li><a href="services-1.html#bjd"> موزع نفاث الكرة </a></li>
+                    <li><a href="services-1.html#dv">صمام القرص</a></li>
+                    <li><a href="services-1.html#dad">باب الوصول إلى القناة </a></li>
+                    <li><a href="services-1.html#fd">مخمدات الحريق</a></li>
+                    <li><a href="services-1.html#fal">فتحة تهوية جديدة </a></li>
+                    <li><a href="services-1.html#jd">النافث النفاث </a></li>
+                    <li><a href="services-1.html#lbg">شبك شبكي خطي </a></li>
+                    <li><a href="services-1.html#rcd">الناشر سقف مستدير </a></li>
+                    <li><a href="services-1.html#stl">مصيدة الرمال </a></li>
+                    <li><a href="services-1.html#lsd">الناشر ذو الفتحة الخطية </a></li>
+                    <li><a href="services-1.html#vcd">مخمد التحكم في مستوى الصوت </a></li>
+                    <li><a href="services-1.html#scd">لاينر سقف مربع</a></li>
                   </ul>
+                </li>
+                <li>
+                  <a href="about-2.html">عنا</a>
+                </li>
+                <li>
+                  <a href="contact-4.html">اتصل بنا</a>
+                </li>
+                <li>
+                  <a href="services-1-en.html">en</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main header END -->
+    </header>
+    <!-- header END -->
+    <!-- Content -->
+    <div class="page-content bg-white">
+      <!-- inner page banner -->
+      <div class="dlab-bnr-inr overlay-black-middle bg-pt position-relative"
+        style="background-image: url(images/pexels-mike-van-schoonderwalt-5502720.jpg); background-size: cover; background-position: center center">
+        <div
+          style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5)">
+        </div>
+        <div class="container">
+          <div class="position-relative dlab-bnr-inr-entry">
+            <h1 class="text-white">منتجاتنا</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+              <ul class="list-inline">
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li></li>
+              </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+          </div>
+        </div>
+      </div>
+      <!-- inner page banner END -->
+      <!-- contact area -->
+      <div class="content-block">
+        <!-- About Us -->
+        <div class="section-full content-inner bg-gray">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <div class="section-head text-black">
+                  <h4 class="text-gray-dark font-weight-300 m-b10">الخبرة</h4>
+                  <h2 class="title">تزيد خبرتنا عن 12 عاما في تصنيع جميع مخارج ومجاري الهواء والحريق والصرف الصحي</h2>
+                  <p>
+                    وقد نفذنا العديد من المشروعات مثل (القاعة المغطاة في السادس من أكتوبر - مجمع مولات غرب الشروق - مجمع
+                    التمثيل الإداري في السادس
+                    من أكتوبر - بنك CIB ، ميريلاند - بنك QNB، لعبة الدوال العربية - كارفور ميراج مول)
+                  </p>
                 </div>
+                <div class="section-content row">
+                  <div id="agfb" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="01">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-robot-arm"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">اير جريل</h2>
+                        <ul>
+                          <li>
+                            <h3 class="dlab-tilte fs-4">اير جريل ثابت :</h3>
+                            <p>
+                              شبكة من مجموعة واحدة من الشفرات الأفقية الثابتة (الشكل أ) أو الشفرات الرأسية (الشكل ب) على
+                              شكل 45 درجة ، وشفرات الإطار
+                              عبارة عن سبيكة ألمنيوم مبثوقة ومغلفة بمسحوق البوليستر ، وتستخدم كشبكة رجوع للجدار الجانبي
+                              .
+                            </p>
+                          </li>
+                          <li>
+                            <h3 class="dlab-tilte fs-4">اير جريل :</h3>
+                            <p>
+                              عبارة عن شواية هوائية عائدة مع مثبط نصل متقابل الشكل <br />
+                              تتوفر تقنيات قسم دعم العملاء بشركة مكة لأخذ القياسات الفعلية في الموقع عند الطلب .
+                            </p>
+                          </li>
+                        </ul>
+                        <a href="/pdf/AIR GRILL FIXED BLADES.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="bdd" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="02">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-factory-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">باك درافت دامبر GSH ‘ BDD ‘ PRD</h2>
+                        <p>
+                          باك درافت دامبر من مكة هي مخمدات غير رجعية مصممة للعزل التلقائي للمقاطع الفردية لنظام تكييف
+                          الهواء ، مما يسمح بتدفق الهواء
+                          في اتجاه واحد فقط.
+                        </p>
+                        <p>طورت مكة ثلاثة أنواع من مخمدات السحب الخلفي على النحو التالي:</p>
+                        <p>-GSH Light Back Draft Damper (Gravity Shutter)</p>
+                        <p>BDD Back Draft Damper</p>
+                        <p>PRD Pressure Relief Damper</p>
+                        <a href="/pdf/BACK DRAFT DAMPERS DESIGN white 3ard.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="bjd" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="03">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-fuel-station"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">بول جت دفيوزر</h2>
+                        <h3 class="dlab-tilte fs-4">المزايا :</h3>
+                        <p>
+                          يفضل من الناحية المعمارية لمظهره الممتاز والمناسب للمناطق المفتوحة الكبيرة مثل قاعة الحفلات
+                          الموسيقية والمطار والمسرح
+                          والمتحف وما إلى ذلك.
+                        </p>
+                        <p>منفذ نوع الفوهة هو الأنسب للتبريد أو التسخين الموضعي ، لأنه يمكن تعديل اتجاه الهواء بسهولة
+                          ليناسب متطلبات الفرد.</p>
+                        <p>يمنح أقصى زاوية تعديل لأعلى أو لأسفل للمخرج هي ± 30 درجة في أي اتجاه.</p>
+                        <p>يوفر مستوى ضوضاء منخفض وانخفاض ضغط منخفض مصنوع من الألومنيوم.</p>
+                        <a href="/pdf/BALL JET DIFFUSER design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="dad" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="05">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-conveyor-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">دكت</h2>
+                        <p>
+                          أبواب الوصول المعزولة مصنوعة من صفائح فولاذية مجلفنة ومعبأة بالصوف المعدني للعزل العالي ، وهي
+                          مصممة لإثبات الوصول المريح
+                          والاقتصادي إلى مكونات مجاري الهواء ، وحشية النيوبرين بين الباب والإطار لضمان إحكام الإغلاق دون
+                          إعاقة في تيار الهواء. متوفر
+                          في طرز مختلفة ، ويمكن أيضًا تعديله على أساس ‘ختيار العميل.
+                        </p>
+                        <a href="/pdf/DUCT ACCESS DOOR design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="dv" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="04">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-fuel-truck"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">ديسك فالف (DV)</h2>
+                        <p>صمام قرصي مكة مصنع من الفولاذ عالي الجودة ومغطى بمسحوق البوليستر.</p>
+                        <p>يتم تصنيع صمام القرص من الفولاذ عالي الجودة والمطلي بمسحوق البوليستر.</p>
+                        <p>المركز الأساسي قابل للتعديل بواسطة المسمار والصمولة للتحكم في الهواء.</p>
+                        <p>الإطار الخارجي مزود بحشية مطاطية رغوية.</p>
+                        <p>يستخدمDV على نطاق واسع للعادم في غرف الغسيل</p>
+                        <a href="/pdf/DISC VALVE design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="fd" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="06">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">فاير دامبر (FD)</h2>
+                        <p>نوع الستارة المثبطة للحريق مع شفرات داخل تيار الهواء</p>
+                        <p>
+                          تم اعتماد نموذجFDI للاستخدام في الجدران والأرضيات والفواصل ذات معدلات مقاومة الحريق لساعات أو
+                          أكثر. يحمل هذا الطراز ملصق
+                          مخمد حريقUL لمدة 3 ساعات .. يصنفUL 555 مخمدات حريق ذات تصنيف ديناميكي لاستخدامها في أنظمةHVAC
+                          التي يتم إيقافها تلقائيًا في
+                          حالة نشوب حريق.
+                        </p>
+                        <p>صممت مخمدات الحريق ذات الشفرات القابلة للطي لمنع انتشار الحريق في جميع أنحاء أنظمة
+                          &quot;مجاري الهواء&quot;.</p>
+                        <p>
+                          مخمدات حريق ريش الستائر مناسبة للتركيب في الجدران والأرضيات والأسقف والأبواب والفواصل. مجموعة
+                          واسعة من الأحجام المناسبة
+                          للتطبيقات ذات السرعة المنخفضة أو المتوسطة أو العالية.
+                        </p>
+                        <p>مخمدات الحريق مزودة بوصلات منصهرة 72 درجة مئوية (165 درجة فهرنهايت) [المدرجة في قوائمUL]</p>
+                        <ol>
+                          <h3 class="dlab-tilte fs-4">محتويات فاير دامبر :</h3>
+                          <li>الفولاذ المقاوم للصدأ إغلاق الربيع.</li>
+                          <li>منحدر القفل.</li>
+                          <li>رابط قابل للاستخدام (72 درجة مئوية) مدرج في قوائمUL]</li>
+                          <li>يتم تثبيت الشفرات العلوية على الإطار</li>
+                          <li>غلاف الصلب المجلفن</li>
+                          <li>شفرات الصلب المجلفن</li>
+                        </ol>
+                        <h3 class="dlab-tilte fs-4">الانواع</h3>
+                        <p>Fire Damper Curtain Type with Blades</p>
+                        <p>Fire Damper Curtain Type Rectangular FDR</p>
+                        <p>Fire Damper Curtain Type With Round Duct Connection FDSR</p>
+                        <p>Fire Damper Curtain Type with Oval Duct Connection FDSO</p>
+                        <p>Fire Damper Blade Type FDB</p>
+                        <a href="/pdf/FIRE DAMPERSdesign white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="fal" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="07">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">فريش إير</h2>
+                        <p>
+                          تتكون فتحة الهواء النقية في منتجمكة المستخدمة في العادم والهواء النقي من مجموعة من الشفرات
+                          الثابتة المثبتة الأفقية وتميل
+                          لأسفل بمقدار 45 درجة ومتباعدة 13/8 (35 مم) لنوع الشفرة الصغيرة و 2 بوصة (50 مم) لنوع الشفرة
+                          الكبيرة ، مما يسمح بالهواء
+                          لتمريرها مع إبعاد العناصر غير المرغوب فيها مثل الماء والأوساخ وما إلى ذلك) وهي بولي.
+                        </p>
+                        <p>
+                          يتم تصنيع الإطار والشفرات من سبائك الألومنيوم المبثوقةT6ester (6063مطلية بمسحوقRAL (9016 أو
+                          9010 ، ألوان أخرى متوفرة عند
+                          الطلب).
+                        </p>
+                        <p>تم تصميمFAL لكل من فتحة السحب والعادم</p>
+                        <a href="/pdf/FRESH AIR LOUVER design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="jd" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="08">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">JET DIFFUSER (JD)</h2>
+                        <p>
+                          مكة جيت ناشر مصمم للمناطق التي تحتاج إلى رمي طويل. يمكن التحكم في الحلقات الداخلية أفقيًا
+                          واتجاهات عمودية. ناشر الهواء
+                          مصنوع من الألمنيوم والمطلي بمسحوق البوليستر. طائرة واحدة ، اثنتان ، ثلاث أو أربع طائرات يمكن
+                          تحديد عناصر الناشر لكل لوحة.
+                        </p>
+                        <a href="/pdf/JET DIFFUSER design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="lbg" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="09">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">لاينر (LBG)</h2>
+                        <p>
+                          تستخدم الشوايات ذات القضبان الخطية بسعة عالية بالإضافة إلى مظهرها الجمالي اللطيف بشكل شائع على
+                          طول جوانبها مساحات كبيرة
+                          نسبيًا مع مناطق خالية مزدوجة مثل القباب والردهات المفتوحة ومراكز التسوق والردهات ومداخل
+                          المباني ، حيث كل من الجماليات
+                          وأحجام الهواء عالية السعة مطلوبة. يمكن توفيرها في كل من الأشكال المستقيمة والمنحنية لتناسب
+                          الهندسة الداخلية للمساحة
+                          المخدومة.
+                        </p>
+                        <a href="/pdf/LINEAR BAR GRILLE design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="rcd" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="10">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">راوند سيلينج ديفيوزر (RCD)</h2>
+                        <ul>
+                          <li>(RCDR)</li>
+                          <li>(RCDS)</li>
+                        </ul>
+                        <p>
+                          يمكن استخدام ناشر السقف المستدير المصنوع من سبائك الألومنيوم كمصدر أو عادم في تطبيقات التبريد
+                          والتدفئة أو التهوية ، مع نوى
+                          قابلة للتعديل بالكامل لتوفير نمط هواء أفقي أو عمودي ، ويسمح القلب الداخلي القابل للإزالة
+                          بسهولة التركيب والوصول إلى
+                          القناة. يستخدم مثبط الفراشة للتزويد ويمكن لشفرته على شكلD ضبط حجم الهواء عن طريق تنظيم المسمار
+                          الداخلي باستخدام محرك لولبي
+                        </p>
+                        <h3 class="dlab-tilte fs-4">التركيب :</h3>
+                        <p>عودة الناشر المستدير للسقف متصل بقناة بواسطة لولب</p>
+                        <p>إمداد ناشر سقف دائري متصل بقناة بواسطة لولب</p>
+                        <a href="/pdf/ROUND CEILING DIFFUSER design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="stl" class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="11">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">مصيدة الرمال</h2>
+                        <p>
+                          تعتبر كوات مكة الرمال المصيدة فعالة للغاية في حبس الرمال بينما تتمتع بمظهر جذاب وجمالي يلبي
+                          معظم الاحتياجات المعمارية.
+                        </p>
+                        <p>يتم إنشاء كوات مصيدة الرمل من مجموعتين من القنوات C المقلوبة مثبتة رأسياً.</p>
+                        <p>يحتوي اللوفر على ثقوب ذاتية التفريغ في الجزء السفلي يتم من خلالها طرد الرمل المحاصر بسلاسة.
+                        </p>
+                        <p>الإطار والشفرات مصنوعة من سبائك الألومنيوم المبثوقة (6030- T 6) المطلية بمسحوق البوليستر (RAL
+                          9016or 9010).</p>
+                        <p>الألوان متوفرة عند الطلب.</p>
+                        <p>تسمح كوة مصيدة الرمل بدخول تدفق الهواء أثناء فصل الرمال عن الهواء وحبسها</p>
+                        <a href="/pdf/SAND TRAP LOUVER design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper" data-name="12">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">Linear Slot Diffuser (LSD)</h2>
+                        <p>
+                          الفتحة الخطية في المناطق المفتوحة الكبيرة حيث يلزم توفير المحيط أو الإرجاع ، ويمكن تحقيق ذلك
+                          عن طريق دوارات انحراف الهواء
+                          المطلوبة ، ويمكن تحقيق ذلك عن طريق دوارات انحراف الهواء التي تتطلب تحقيق تحكم دقيق في التحكم
+                          في تدفق الهواء. المظهر
+                          الجمالي اللطيف ، يمكن استخدامه في مجموعة متنوعة من المواقع المرموقة مثل الردهات ، وصالات
+                          الطعام ، والفنادق ، والقصور
+                          والمداخل حيث تكون الجمالية بالغة الأهمية من الناحية الجمالية. مع أدائها الثابت بمعدلات تدفق
+                          هواء متغيرة ، يمكن استخدام
+                          ناشرات الفتحات بشكل فعال جزء من أنظمةVAV. يمكن استخدامها كناشر للهواء الإمداد ، أو ديوسير
+                          الهواء العائد أو مصفاة السقف
+                          الوهمية لأغراض الديكور لاينر سقف مربع
+                        </p>
+                        <a href="/pdf/slot diffuser(6).pdf" target="_blank" class="site-button btnhover14 border">اقرأ
+                          المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="vcd" class="col-lg-6 justify-content-center d-flex w-100 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper w-50" data-name="13">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">VCD فوليم دامبر</h2>
+                        <p>مخمد التحكم في مستوى الصوت مصنوع من شفرات مفردة أو متعددة.</p>
+                        <p>يمكن تركيب مانع تسرب حافة الشفرات من أجل متطلبات التسرب المنخفض.</p>
+                        <p>يتم توفير رباعي قفل اليد للتشغيل اليدوي.</p>
+                        <p>يتم توفير عمود ممتد وقاعدة محرك للتشغيل الميكانيكي.</p>
+                        <p>يتم تثبيت الشفرات على محمل من النايلون ويتم تشغيلها بواسطة رابط خارجي.</p>
+                        <p>المنتح متوفر عند الطلب.</p>
+                        <a href="/pdf/VOLUME CONTROL DAMPER design white.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="scd" class="col-lg-6 justify-content-center d-flex w-100 col-md-6 service-box style3">
+                    <div class="icon-bx-wraper w-50" data-name="13">
+                      <div class="icon-lg">
+                        <a class="icon-cell"><i class="flaticon-engineer-1"></i></a>
+                      </div>
+                      <div class="icon-content">
+                        <h2 class="dlab-tilte">لاينر سقف مربع</h2>
+                        <p>
+                          ناشرات السقف عبارة عن مخرج هواء يشكل مجارى التكييف التي تنشر الهواء على مساحة كبيرة لإنتاج
+                          توزيع متساوٍ وتجنب المسودات أي
+                          ناشرات هواء موجودة في السقف تستخدم لتوفير نمط توزيع أفقي للهواء فوق منطقة يشغلها الناس ،
+                          ناشرات السقف مناسبة لتزويد الهواء
+                          مثل بالإضافة إلى هواء العادم ، توفر وحدات توزيع الهواء المربعة ETAW نمطًا مستقرًا لانتشار
+                          الهواء الذي يتدفق عبر عدد من
+                          الأقسام المرتبة بشكل مركز ، معادلة تدفق توزيع الهواء المتحكم فيه ، وتوهين الصوت.
+                        </p>
+
+                        <a href="/pdf/square ceiling diffuser.pdf" target="_blank"
+                          class="site-button btnhover14 border">اقرأ المزيد</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact area END -->
+    </div>
+    <!-- Content END-->
+    <!-- Footer -->
+    <footer class="site-footer footer-gray-1">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row align-content-center">
+            <div class="col-lg-5 col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.6s">
+              <img src="images/logoM.jpeg" style="width: 50%; float: right" class="rounded-pill" alt="" />
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.4s">
+              <div class="">
+                <div class="widget widget_about">
+                  <h4 class="footer-title">عن مكه</h4>
+                  <h6>شركة متخصصة في تصنيع جميع مخارج ومجاري الهواء والحريق والصرف الصحي</h6>
+                  <a href="about-2.html" class="readmore">اقرأ أكثر</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeIn float-left" data-wow-delay="0.2s">
+              <div class="widget border-0 w-100">
+                <h6 class="m-b20 text-white font-weight-300 text-uppercase">روابط سريعة</h6>
+                <ul class="list-2">
+                  <li><a href="index.html"> الصفحه الرئيسيه</a></li>
+                  <li><a href="services-1.html">منتجاتنا</a></li>
+                  <li><a href="contact-4.html">معلومات عنا</a></li>
+                  <li><a href="about-2.html">اتصل بنا </a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
         <div class="flex-row-reverse d-flex align-items-center justify-content-center">
-          <span>Developed By TaliaMedia</span>
-          <span style="margin-left: 12px"> &copy;</span>
+          <span class="mt-4">Developed By Talia Media &copy;</span>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-      <!-- Footer End -->
-      <button class="scroltop fas fa-chevron-up"></button>
-    </div>
-    <!-- JAVASCRIPT FILES ========================================= -->
-    <script src="js/jquery.min.js"></script>
-    <!-- JQUERY.MIN JS -->
-    <script src="plugins/wow/wow.js"></script>
-    <!-- WOW JS -->
+    <!-- Footer End -->
+    <button class="scroltop fas fa-chevron-up"></button>
+  </div>
+  <!-- JAVASCRIPT FILES ========================================= -->
+  <script src="js/jquery.min.js"></script>
+  <!-- JQUERY.MIN JS -->
+  <script src="plugins/wow/wow.js"></script>
+  <!-- WOW JS -->
 
-    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- BOOTSTRAP.MIN JS -->
-    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
-    <!-- FORM JS -->
-    <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-    <!-- FORM JS -->
-    <script src="plugins/magnific-popup/magnific-popup.js"></script>
-    <!-- MAGNIFIC POPUP JS -->
-    <script src="plugins/counter/waypoints-min.js"></script>
-    <!-- WAYPOINTS JS -->
-    <script src="plugins/counter/counterup.min.js"></script>
-    <!-- COUNTERUP JS -->
-    <script src="plugins/imagesloaded/imagesloaded.js"></script>
-    <!-- IMAGESLOADED -->
-    <script src="plugins/masonry/masonry-3.1.4.js"></script>
-    <!-- MASONRY -->
-    <script src="plugins/masonry/masonry.filter.js"></script>
-    <!-- MASONRY -->
-    <script src="plugins/owl-carousel/owl.carousel.js"></script>
-    <!-- OWL SLIDER -->
-    <script src="plugins/lightgallery/js/lightgallery-all.min.js"></script>
-    <!-- Lightgallery -->
-    <script src="plugins/scroll/scrollbar.min.js"></script>
-    <!-- scroll -->
-    <script src="js/custom.js"></script>
-    <!-- CUSTOM FUCTIONS  -->
-    <script src="js/dz.carousel.min.js"></script>
-    <!-- SORTCODE FUCTIONS  -->
-    <script src="plugins/countdown/jquery.countdown.js"></script>
-    <!-- COUNTDOWN FUCTIONS  -->
-    <script src="js/dz.ajax.js"></script>
-    <!-- CONTACT JS  -->
-    <script src="plugins/rangeslider/rangeslider.js"></script>
-    <!-- Rangeslider -->
-  </body>
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- BOOTSTRAP.MIN JS -->
+  <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+  <!-- FORM JS -->
+  <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+  <!-- FORM JS -->
+  <script src="plugins/magnific-popup/magnific-popup.js"></script>
+  <!-- MAGNIFIC POPUP JS -->
+  <script src="plugins/counter/waypoints-min.js"></script>
+  <!-- WAYPOINTS JS -->
+  <script src="plugins/counter/counterup.min.js"></script>
+  <!-- COUNTERUP JS -->
+  <script src="plugins/imagesloaded/imagesloaded.js"></script>
+  <!-- IMAGESLOADED -->
+  <script src="plugins/masonry/masonry-3.1.4.js"></script>
+  <!-- MASONRY -->
+  <script src="plugins/masonry/masonry.filter.js"></script>
+  <!-- MASONRY -->
+  <script src="plugins/owl-carousel/owl.carousel.js"></script>
+  <!-- OWL SLIDER -->
+  <script src="plugins/lightgallery/js/lightgallery-all.min.js"></script>
+  <!-- Lightgallery -->
+  <script src="plugins/scroll/scrollbar.min.js"></script>
+  <!-- scroll -->
+  <script src="js/custom.js"></script>
+  <!-- CUSTOM FUCTIONS  -->
+  <script src="js/dz.carousel.min.js"></script>
+  <!-- SORTCODE FUCTIONS  -->
+  <script src="plugins/countdown/jquery.countdown.js"></script>
+  <!-- COUNTDOWN FUCTIONS  -->
+  <script src="js/dz.ajax.js"></script>
+  <!-- CONTACT JS  -->
+  <script src="plugins/rangeslider/rangeslider.js"></script>
+  <!-- Rangeslider -->
+</body>
+
 </html>

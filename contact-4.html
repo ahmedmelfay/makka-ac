@@ -1,416 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="Makka-AC" />
-    <meta property="og:title" content="Makka-AC" />
-    <meta property="og:description" content="Makka-AC" />
-    <meta property="og:image" content="https://industry.dexignzone.com/xhtml/social-image.png" />
-    <meta name="format-detection" content="telephone=no" />
 
-    <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/logoM.jpeg" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/logoM.jpeg" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta name="robots" content="" />
+  <meta name="description" content="Makka-AC" />
+  <meta property="og:title" content="Makka-AC" />
+  <meta property="og:description" content="Makka-AC" />
+  <meta property="og:image" content="https://industry.dexignzone.com/xhtml/social-image.png" />
+  <meta name="format-detection" content="telephone=no" />
 
-    <!-- PAGE TITLE HERE -->
-    <title>Makka-AC</title>
+  <!-- FAVICONS ICON -->
+  <link rel="icon" href="images/logoM.jpeg" type="image/x-icon" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/logoM.jpeg" />
 
-    <!-- MOBILE SPECIFIC -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- PAGE TITLE HERE -->
+  <title>Makka-AC</title>
 
-    <!--[if lt IE 9]>
+  <!-- MOBILE SPECIFIC -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-2.css" />
-    <link rel="stylesheet" type="text/css" href="css/templete.css" />
-    <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-2.css" />
+  <link rel="stylesheet" type="text/css" href="css/templete.css" />
+  <link rel="stylesheet" type="text/css" href="css/rtl.css" />
 
-    <!-- Google Font -->
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
-    </style>
-  </head>
-  <body id="bg">
-    <div class="page-wraper">
-      <div id="loading-area"></div>
-      <!-- header -->
-      <header class="site-header mo-left header">
-        <!-- main header -->
-        <div class="sticky-header main-bar-wraper navbar-expand-lg">
-          <div class="main-bar clearfix">
-            <div class="container clearfix">
-              <!-- website logo -->
-              <div class="logo-header mostion logo-dark">
-                <a href="index.html"><img src="images/logoM.jpeg" style="width: 70px" src="images/logoM.jpeg" class="rounded-pill" alt="" /></a>
-              </div>
-              <!-- nav toggle button -->
-              <button
-                class="navbar-toggler collapsed navicon justify-content-end"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-              </button>
-              <!-- extra nav -->
+  <!-- Google Font -->
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+  </style>
+</head>
 
-              <!-- Quik search -->
-
-              <!-- main nav -->
-              <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
-                <div class="logo-header d-md-block d-lg-none">
-                  <a href="index.html"><img src="images/logoM.jpeg" alt="" /></a>
-                </div>
-                <ul class="nav navbar-nav">
-                  <li>
-                    <a href="index.html">الصفحة الرئيسية</a>
-                  </li>
-                  <li>
-                    <a href="services-1.html">منتجاتنا<i class="fas fa-chevron-down"></i></a>
-                    <ul class="sub-menu">
-                      <li><a href="services-1.html#agfb"> شفرات مثبتة للشواية الهوائية </a></li>
-                      <li><a href="services-1.html#bdd">مخمدات المسودة الخلفية </a></li>
-                      <li><a href="services-1.html#bjd"> موزع نفاث الكرة </a></li>
-                      <li><a href="services-1.html#dv">صمام القرص</a></li>
-                      <li><a href="services-1.html#dad">باب الوصول إلى القناة </a></li>
-                      <li><a href="services-1.html#fd">مخمدات الحريق</a></li>
-                      <li><a href="services-1.html#fal">فتحة تهوية جديدة </a></li>
-                      <li><a href="services-1.html#jd">النافث النفاث </a></li>
-                      <li><a href="services-1.html#lbg">شبك شبكي خطي </a></li>
-                      <li><a href="services-1.html#rcd">الناشر سقف مستدير </a></li>
-                      <li><a href="services-1.html#stl">مصيدة الرمال </a></li>
-                      <li><a href="services-1.html#lsd">الناشر ذو الفتحة الخطية </a></li>
-                      <li><a href="services-1.html#vcd">مخمد التحكم في مستوى الصوت </a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="about-2.html">عنا</a>
-                  </li>
-                  <li class="active">
-                    <a href="contact-4.html">اتصل بنا</a>
-                  </li>
-                  <li>
-                    <a href="contact-4-en.html">en</a>
-                  </li>
-                </ul>
-              </div>
+<body id="bg">
+  <div class="page-wraper">
+    <div id="loading-area"></div>
+    <!-- header -->
+    <header class="site-header mo-left header">
+      <!-- main header -->
+      <div class="sticky-header main-bar-wraper navbar-expand-lg">
+        <div class="main-bar clearfix">
+          <div class="container clearfix">
+            <!-- website logo -->
+            <div class="logo-header mostion logo-dark">
+              <a href="index.html"><img src="images/logoM.jpeg" style="width: 70px" src="images/logoM.jpeg"
+                  class="rounded-pill" alt="" /></a>
             </div>
-          </div>
-        </div>
-        <!-- main header END -->
-      </header>
-      <!-- header END -->
-      <!-- Content -->
-      <div class="page-content bg-white">
-        <!-- inner page banner -->
-        <div
-          class="dlab-bnr-inr overlay-black-middle bg-pt position-relative"
-          style="background-image: url(images/pexels-mike-van-schoonderwalt-5502720.jpg); background-size: cover; background-position: center center"
-        >
-          <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5)"></div>
-          <div class="container">
-            <div class="position-relative dlab-bnr-inr-entry">
-              <h1 class="text-white">اتصل بنا</h1>
-              <!-- Breadcrumb row -->
-              <div class="breadcrumb-row">
-                <ul class="list-inline">
-                  <li><a href="index.html">الصفحة الرئيسية</a></li>
-                  <li>اتصل بنا</li>
-                </ul>
+            <!-- nav toggle button -->
+            <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <!-- extra nav -->
+
+            <!-- Quik search -->
+
+            <!-- main nav -->
+            <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+              <div class="logo-header d-md-block d-lg-none">
+                <a href="index.html"><img src="images/logoM.jpeg" alt="" /></a>
               </div>
-              <!-- Breadcrumb row END -->
-            </div>
-          </div>
-        </div>
-        <!-- inner page banner END -->
-        <!-- contact area -->
-        <div class="section-full content-inner bg-white contact-style-1">
-          <div class="container">
-            <!-- <div class="row dzseth">
-              <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div
-                  class="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm"
-                >
-                  <div class="icon-lg text-primary m-b20">
-                    <a href="" class="icon-cell"
-                      ><i class="ti-location-pin"></i
-                    ></a>
-                  </div>
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte text-uppercase">عنوان</h5>
-                    <p>123 West Street ، م</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div
-                  class="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm"
-                >
-                  <div class="icon-lg text-primary m-b20">
-                    <a href="" class="icon-cell"
-                      ><i class="ti-email"></i
-                    ></a>
-                  </div>
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte text-uppercase">البريد الإلكتروني</h5>
-                    <p>
-                      info@example.com <br />
-                      info@example.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div
-                  class="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm"
-                >
-                  <div class="icon-lg text-primary m-b20">
-                    <a href="" class="icon-cell"
-                      ><i class="ti-mobile"></i
-                    ></a>
-                  </div>
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte text-uppercase">هاتف</h5>
-                    <p>
-                      +00 1234 5678 90 <br />
-                      +00 234 678 9012
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div
-                  class="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm"
-                >
-                  <div class="icon-lg text-primary m-b20">
-                    <a href="" class="icon-cell"
-                      ><i class="ti-printer"></i
-                    ></a>
-                  </div>
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte text-uppercase">فاكس</h5>
-                    <p>
-                      +00 1234 5678 90 <br />
-                      +00 234 678 9012
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-            <div class="row">
-              <!-- Left part start -->
-              <div class="col-lg-6 col-sm-12 d-flex m-b30">
-                <div class="p-a30 border contact-area border-1 align-self-stretch radius-sm">
-                  <h3 class="m-b5">اتصال سريع</h3>
-                  <p>لديك أي أسئلة ببساطة استخدم تفاصيل الاتصال التالية.</p>
-                  <ul class="no-margin">
-                    <li class="icon-bx-wraper left m-b30">
-                      <div class="icon-bx-xs border-1">
-                        <a class="icon-cell"><i class="ti-location-pin"></i></a>
-                      </div>
-                      <div class="icon-content">
-                        <h6 class="text-uppercase m-tb0 dlab-tilte">عنوان:</h6>
-                        <a href="https://goo.gl/maps/WYuZBeWvnxTFsPWA9" class="op7">
-                          6شارع عادل والي الكيلو 26 طريق مصر اسكندرية الصحراوي المنطقة الصناعية ابو رواش
-                        </a>
-                      </div>
-                    </li>
-                    <li class="icon-bx-wraper left m-b30">
-                      <div class="icon-bx-xs border-1">
-                        <a class="icon-cell"><i class="ti-email"></i></a>
-                      </div>
-                      <div class="icon-content">
-                        <h6 class="text-uppercase m-tb0 dlab-tilte">البريد الإلكتروني:</h6>
-                        <a href="mailto:info@makka-ac.com">info@makka-ac.com</a>
-                      </div>
-                    </li>
-                    <li class="icon-bx-wraper left">
-                      <div class="icon-bx-xs border-1">
-                        <a class="icon-cell"><i class="ti-mobile"></i></a>
-                      </div>
-                      <div class="icon-content">
-                        <h6 class="text-uppercase m-tb0 dlab-tilte">هاتف</h6>
-                        <a href="tel:0233784458">0233784458</a>
-                        <br />
-                        <a href="tel:+201018875264">01018875264 / </a>
-                        <a href="tel:+201110026664">01110026664</a>
-                      </div>
-                    </li>
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="index.html">الصفحة الرئيسية</a>
+                </li>
+                <li>
+                  <a href="services-1.html">منتجاتنا<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu">
+                    <li><a href="services-1.html#agfb"> شفرات مثبتة للشواية الهوائية </a></li>
+                    <li><a href="services-1.html#bdd">مخمدات المسودة الخلفية </a></li>
+                    <li><a href="services-1.html#bjd"> موزع نفاث الكرة </a></li>
+                    <li><a href="services-1.html#dv">صمام القرص</a></li>
+                    <li><a href="services-1.html#dad">باب الوصول إلى القناة </a></li>
+                    <li><a href="services-1.html#fd">مخمدات الحريق</a></li>
+                    <li><a href="services-1.html#fal">فتحة تهوية جديدة </a></li>
+                    <li><a href="services-1.html#jd">النافث النفاث </a></li>
+                    <li><a href="services-1.html#lbg">شبك شبكي خطي </a></li>
+                    <li><a href="services-1.html#rcd">الناشر سقف مستدير </a></li>
+                    <li><a href="services-1.html#stl">مصيدة الرمال </a></li>
+                    <li><a href="services-1.html#lsd">الناشر ذو الفتحة الخطية </a></li>
+                    <li><a href="services-1.html#vcd">مخمد التحكم في مستوى الصوت </a></li>
+                    <li><a href="services-1.html#scd">لاينر سقف مربع</a></li>
                   </ul>
-                </div>
-              </div>
-              <!-- Left part END -->
-              <!-- right part start -->
-              <div class="col-lg-6 m-b30 d-flex">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24609.60436808114!2d31.072946949482983!3d30.067895506646188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zNti02KfYsdi5INi52KfYr9mEINmI2KfZhNmKINin2YTZg9mK2YTZiCAyNiDYt9ix2YrZgiDZhdi12LEg2KfYs9mD2YbYr9ix2YrYqSDYp9mE2LXYrdix2KfZiNmKINin2YTZhdmG2LfZgtipINin2YTYtdmG2KfYudmK2Kkg2KfYqNmIINix2YjYp9i0!5e0!3m2!1sar!2seg!4v1670484829141!5m2!1sar!2seg"
-                  width="600"
-                  height="450"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-              <!-- right part END -->
+                </li>
+                <li>
+                  <a href="about-2.html">عنا</a>
+                </li>
+                <li class="active">
+                  <a href="contact-4.html">اتصل بنا</a>
+                </li>
+                <li>
+                  <a href="contact-4-en.html">en</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <!-- contact area  END -->
       </div>
-      <!-- Content END-->
-      <!-- Footer -->
-      <footer class="site-footer footer-gray-1">
-        <div class="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
-                <div style="height: 118px" class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte">
-                      <span class="icon-sm"><i class="ti-location-pin"></i></span>
-                      عنوان الشركة
-                    </h5>
-                    <a href="https://g.page/Egypools-New-Cairo?share" class="op7">
-                      6شارع عادل والي الكيلو 26 طريق مصر اسكندرية الصحراوي المنطقة الصناعية ابو رواش
-                    </a>
-                  </div>
+      <!-- main header END -->
+    </header>
+    <!-- header END -->
+    <!-- Content -->
+    <div class="page-content bg-white">
+      <!-- inner page banner -->
+      <div class="dlab-bnr-inr overlay-black-middle bg-pt position-relative"
+        style="background-image: url(images/pexels-mike-van-schoonderwalt-5502720.jpg); background-size: cover; background-position: center center">
+        <div
+          style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5)">
+        </div>
+        <div class="container">
+          <div class="position-relative dlab-bnr-inr-entry">
+            <h1 class="text-white">اتصل بنا</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+              <ul class="list-inline">
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li>اتصل بنا</li>
+              </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+          </div>
+        </div>
+      </div>
+      <!-- inner page banner END -->
+      <!-- contact area -->
+      <div class="section-full content-inner bg-white contact-style-1">
+        <div class="container">
+          <div class="row">
+            <!-- Left part start -->
+            <div class="col-lg-6 col-sm-12 d-flex m-b30">
+              <div class="p-a30 border contact-area border-1 align-self-stretch radius-sm">
+                <h3 class="m-b5">اتصال سريع</h3>
+                <p>لديك أي أسئلة ببساطة استخدم تفاصيل الاتصال التالية.</p>
+                <ul class="no-margin">
+                  <li class="icon-bx-wraper left m-b30">
+                    <div class="icon-bx-xs border-1">
+                      <a class="icon-cell"><i class="ti-location-pin"></i></a>
+                    </div>
+                    <div class="icon-content">
+                      <h6 class="text-uppercase m-tb0 dlab-tilte">عنوان:</h6>
+                      <a href="https://goo.gl/maps/WYuZBeWvnxTFsPWA9" class="op7">
+                        6شارع عادل والي الكيلو 26 طريق مصر اسكندرية الصحراوي المنطقة الصناعية ابو رواش
+                      </a>
+                    </div>
+                  </li>
+                  <li class="icon-bx-wraper left m-b30">
+                    <div class="icon-bx-xs border-1">
+                      <a class="icon-cell"><i class="ti-email"></i></a>
+                    </div>
+                    <div class="icon-content">
+                      <h6 class="text-uppercase m-tb0 dlab-tilte">البريد الإلكتروني:</h6>
+                      <a href="mailto:info@makka-ac.com">info@makka-ac.com</a>
+                    </div>
+                  </li>
+                  <li class="icon-bx-wraper left">
+                    <div class="icon-bx-xs border-1">
+                      <a class="icon-cell"><i class="ti-mobile"></i></a>
+                    </div>
+                    <div class="icon-content">
+                      <h6 class="text-uppercase m-tb0 dlab-tilte">هاتف</h6>
+                      <a href="tel:0233784458">0233784458</a>
+                      <br />
+                      <a href="tel:+201018875264">01018875264 / </a>
+                      <a href="tel:+201110026664">01110026664</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Left part END -->
+            <!-- right part start -->
+            <div class="col-lg-6 m-b30 d-flex">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24609.60436808114!2d31.072946949482983!3d30.067895506646188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zNti02KfYsdi5INi52KfYr9mEINmI2KfZhNmKINin2YTZg9mK2YTZiCAyNiDYt9ix2YrZgiDZhdi12LEg2KfYs9mD2YbYr9ix2YrYqSDYp9mE2LXYrdix2KfZiNmKINin2YTZhdmG2LfZgtipINin2YTYtdmG2KfYudmK2Kkg2KfYqNmIINix2YjYp9i0!5e0!3m2!1sar!2seg!4v1670484829141!5m2!1sar!2seg"
+                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- right part END -->
+          </div>
+        </div>
+      </div>
+      <!-- contact area  END -->
+    </div>
+    <!-- Content END-->
+    <!-- Footer -->
+    <footer class="site-footer footer-gray-1">
+      <div class="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+              <div style="height: 118px" class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+                <div class="icon-content">
+                  <h5 class="dlab-tilte">
+                    <span class="icon-sm"><i class="ti-location-pin"></i></span>
+                    عنوان الشركة
+                  </h5>
+                  <a href="https://g.page/Egypools-New-Cairo?share" class="op7">
+                    6شارع عادل والي الكيلو 26 طريق مصر اسكندرية الصحراوي المنطقة الصناعية ابو رواش
+                  </a>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
-                <div style="height: 118px" class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte">
-                      <span class="icon-sm"><i class="ti-email"></i></span>
-                      البريد الإلكتروني
-                    </h5>
-                    <a href="mailto:www.makka-ac.com/" class="op7">www.makka-ac.com/</a>
-                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+              <div style="height: 118px" class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+                <div class="icon-content">
+                  <h5 class="dlab-tilte">
+                    <span class="icon-sm"><i class="ti-email"></i></span>
+                    البريد الإلكتروني
+                  </h5>
+                  <a href="mailto:ceo@makka-ac.com" class="m-b0 op7">ceo@makka-ac.com</a>
+                  <br>
+                  <a href="mailto:info@makka-ac.com" class="m-b0 op7">info@makka-ac.com</a>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
-                <div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte">
-                      <span class="icon-sm"><i class="ti-mobile"></i></span>
-                      أرقام الهواتف
-                    </h5>
-                    <a href="tel:0233784458">0233784458</a>
-                    <br />
-                    <a href="tel:+201018875264">01018875264 / </a>
-                    <a href="tel:+201110026664">01110026664</a>
-                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+              <div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+                <div class="icon-content">
+                  <h5 class="dlab-tilte">
+                    <span class="icon-sm"><i class="ti-mobile"></i></span>
+                    أرقام الهواتف
+                  </h5>
+                  <a href="tel:0233784458">0233784458</a>
+                  <br />
+                  <a href="tel:+201018875264">01018875264 / </a>
+                  <a href="tel:+201110026664">01110026664</a>
                 </div>
               </div>
-              <!-- <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
-                  <div class="icon-content">
-                    <h5 class="dlab-tilte">
-                      <span class="icon-sm"><i class="ti-alarm-clock"></i></span> 
-                      ساعات العمل
-                    </h5>
-                    <p class="m-b0 op7">من الاثنين إلى السبت - 08.00-18.00</p>
-                    <p class="op7">الأحد - إغلاق</p>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
-        <div class="footer-top">
-          <div class="container">
-            <div class="row align-content-center">
-              <div class="col-lg-5 col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.6s">
-                <img src="images/logoM.jpeg" style="width: 50%; float: right" class="rounded-pill" alt="" />
-              </div>
+      </div>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row align-content-center">
+            <div class="col-lg-5 col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.6s">
+              <img src="images/logoM.jpeg" style="width: 50%; float: right" class="rounded-pill" alt="" />
+            </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.4s">
-                <div class="">
-                  <div class="widget widget_about">
-                    <h4 class="footer-title">عن مكه</h4>
-                    <h6>شركة متخصصة في تصنيع جميع مخارج ومجاري الهواء والحريق والصرف الصحي</h6>
-                    <a href="about-2.html" class="readmore">اقرأ أكثر</a>
-                  </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.4s">
+              <div class="">
+                <div class="widget widget_about">
+                  <h4 class="footer-title">عن مكه</h4>
+                  <h6>شركة متخصصة في تصنيع جميع مخارج ومجاري الهواء والحريق والصرف الصحي</h6>
+                  <a href="about-2.html" class="readmore">اقرأ أكثر</a>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 wow fadeIn float-left" data-wow-delay="0.2s">
-                <div class="widget border-0 w-100">
-                  <h6 class="m-b20 text-white font-weight-300 text-uppercase">روابط سريعة</h6>
-                  <ul class="list-2">
-                    <li><a href="index.html"> الصفحه الرئيسيه</a></li>
-                    <li><a href="services-1.html">منتجاتنا</a></li>
-                    <li><a href="contact-4.html">معلومات عنا</a></li>
-                    <li><a href="about-2.html">اتصل بنا </a></li>
-                  </ul>
-                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeIn float-left" data-wow-delay="0.2s">
+              <div class="widget border-0 w-100">
+                <h6 class="m-b20 text-white font-weight-300 text-uppercase">روابط سريعة</h6>
+                <ul class="list-2">
+                  <li><a href="index.html"> الصفحه الرئيسيه</a></li>
+                  <li><a href="services-1.html">منتجاتنا</a></li>
+                  <li><a href="contact-4.html">معلومات عنا</a></li>
+                  <li><a href="about-2.html">اتصل بنا </a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
         <div class="flex-row-reverse d-flex align-items-center justify-content-center">
-          <span>Developed By TaliaMedia</span>
-          <span style="margin-left: 12px"> &copy;</span>
+          <span class="mt-4">Developed By Talia Media &copy;</span>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-      <!-- Footer End -->
-      <button class="scroltop fas fa-chevron-up"></button>
-    </div>
-    <!-- JAVASCRIPT FILES ========================================= -->
-    <script src="js/jquery.min.js"></script>
-    <!-- JQUERY.MIN JS -->
-    <script src="plugins/wow/wow.js"></script>
-    <!-- WOW JS -->
+    <!-- Footer End -->
+    <button class="scroltop fas fa-chevron-up"></button>
+  </div>
+  <!-- JAVASCRIPT FILES ========================================= -->
+  <script src="js/jquery.min.js"></script>
+  <!-- JQUERY.MIN JS -->
+  <script src="plugins/wow/wow.js"></script>
+  <!-- WOW JS -->
 
-    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- BOOTSTRAP.MIN JS -->
-    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
-    <!-- FORM JS -->
-    <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-    <!-- FORM JS -->
-    <script src="plugins/magnific-popup/magnific-popup.js"></script>
-    <!-- MAGNIFIC POPUP JS -->
-    <script src="plugins/counter/waypoints-min.js"></script>
-    <!-- WAYPOINTS JS -->
-    <script src="plugins/counter/counterup.min.js"></script>
-    <!-- COUNTERUP JS -->
-    <script src="plugins/imagesloaded/imagesloaded.js"></script>
-    <!-- IMAGESLOADED -->
-    <script src="plugins/masonry/masonry-3.1.4.js"></script>
-    <!-- MASONRY -->
-    <script src="plugins/masonry/masonry.filter.js"></script>
-    <!-- MASONRY -->
-    <script src="plugins/owl-carousel/owl.carousel.js"></script>
-    <!-- OWL SLIDER -->
-    <script src="plugins/lightgallery/js/lightgallery-all.min.js"></script>
-    <!-- Lightgallery -->
-    <script src="plugins/scroll/scrollbar.min.js"></script>
-    <!-- scroll -->
-    <script src="js/custom.js"></script>
-    <!-- CUSTOM FUCTIONS  -->
-    <script src="js/dz.carousel.min.js"></script>
-    <!-- SORTCODE FUCTIONS  -->
-    <script src="plugins/countdown/jquery.countdown.js"></script>
-    <!-- COUNTDOWN FUCTIONS  -->
-    <script src="js/dz.ajax.js"></script>
-    <!-- CONTACT JS  -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <!-- Google API For Recaptcha  -->
-    <script src="plugins/rangeslider/rangeslider.js"></script>
-    <!-- Rangeslider -->
-  </body>
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- BOOTSTRAP.MIN JS -->
+  <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+  <!-- FORM JS -->
+  <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+  <!-- FORM JS -->
+  <script src="plugins/magnific-popup/magnific-popup.js"></script>
+  <!-- MAGNIFIC POPUP JS -->
+  <script src="plugins/counter/waypoints-min.js"></script>
+  <!-- WAYPOINTS JS -->
+  <script src="plugins/counter/counterup.min.js"></script>
+  <!-- COUNTERUP JS -->
+  <script src="plugins/imagesloaded/imagesloaded.js"></script>
+  <!-- IMAGESLOADED -->
+  <script src="plugins/masonry/masonry-3.1.4.js"></script>
+  <!-- MASONRY -->
+  <script src="plugins/masonry/masonry.filter.js"></script>
+  <!-- MASONRY -->
+  <script src="plugins/owl-carousel/owl.carousel.js"></script>
+  <!-- OWL SLIDER -->
+  <script src="plugins/lightgallery/js/lightgallery-all.min.js"></script>
+  <!-- Lightgallery -->
+  <script src="plugins/scroll/scrollbar.min.js"></script>
+  <!-- scroll -->
+  <script src="js/custom.js"></script>
+  <!-- CUSTOM FUCTIONS  -->
+  <script src="js/dz.carousel.min.js"></script>
+  <!-- SORTCODE FUCTIONS  -->
+  <script src="plugins/countdown/jquery.countdown.js"></script>
+  <!-- COUNTDOWN FUCTIONS  -->
+  <script src="js/dz.ajax.js"></script>
+  <!-- CONTACT JS  -->
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <!-- Google API For Recaptcha  -->
+  <script src="plugins/rangeslider/rangeslider.js"></script>
+  <!-- Rangeslider -->
+</body>
+
 </html>
